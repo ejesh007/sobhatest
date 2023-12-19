@@ -1,0 +1,60 @@
+@mixin max-1800{
+    @media (max-width: 1800px) { @content; }
+}
+
+@mixin min-1000{
+    @media (min-width: 1000px) { @content; }
+}
+
+@mixin min-1200{
+    @media (min-width: 1200px) { @content; }
+}
+
+@mixin min-1800{
+    @media (min-width: 1800px) { @content; }
+}
+
+@mixin max-1200{
+    @media (max-width: 1200px) { @content; }
+}
+
+@mixin max-1000{
+    @media (max-width: 1000px) { @content; }
+}
+
+@mixin max-767{
+    @media (max-width: 767px) { @content; }
+}
+
+.golf-baner-sec{
+    height: 100vh;
+    overflow: hidden;
+    background: url(../images/cloud-banner.png) no-repeat center bottom;
+    background-size: cover;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-end;
+    position: relative;
+    .center-building-sec{
+        width: 100%;
+        height: 100vh;
+        display: flex;
+        flex-wrap: wrap;
+        align-items: flex-end;
+
+    }
+    .center-build{
+        width: 100%;
+        transform: scale(1.4);
+        
+    }
+    .golf-man{
+        position: absolute;
+        bottom: -517px;
+        left: 20%;
+        z-index: 1;
+        transform: scale(0.7);
+    }
+}
+
+ 

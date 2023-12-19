@@ -1,0 +1,44 @@
+.golf-baner-sec {
+  height: 100vh;
+  overflow: hidden;
+  background: url(../images/cloud-banner.png) no-repeat center bottom;
+  background-size: cover;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+  position: relative;
+}
+
+.golf-baner-sec .center-building-sec {
+  width: 100%;
+  height: 100vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+}
+
+.golf-baner-sec .center-build {
+  width: 100%;
+  -webkit-transform: scale(1.4);
+          transform: scale(1.4);
+}
+
+.golf-baner-sec .golf-man {
+  position: absolute;
+  bottom: -517px;
+  left: 20%;
+  z-index: 1;
+  -webkit-transform: scale(0.7);
+          transform: scale(0.7);
+}
+/*# sourceMappingURL=style-e.css.map */
